@@ -367,7 +367,6 @@ $.extend($.validator, {
 						element: this.findByName(name)[0]
 					});
 				}
-
 				// remove items from success list
 				this.successList = $.grep( this.successList, function(element) {
 					return !(element.name in errors);
